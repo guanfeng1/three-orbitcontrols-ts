@@ -103,6 +103,7 @@ export class OrbitControls extends THREE.EventDispatcher {
   private onKeyDown: EventListener;
 
   constructor (object: THREE.Camera, domElement?: HTMLElement, domWindow?: Window) {
+
     super();
     this.object = object;
 
@@ -289,8 +290,9 @@ export class OrbitControls extends THREE.EventDispatcher {
 
       if ( this.enabled === false || this.enableZoom === false || ( this.state !== STATE.NONE && this.state !== STATE.ROTATE ) ) return;
 
-      event.preventDefault();
-      event.stopPropagation();
+      //@guan
+      //event.preventDefault();
+      //event.stopPropagation();
 
       if ( event.deltaY < 0 ) {
         this.dollyOut( this.getZoomScale() );
@@ -591,6 +593,7 @@ export class OrbitControls extends THREE.EventDispatcher {
       this.scale *= dollyScale;
     } else if ( this.object.type === "OrthographicCamera" ) {
       this.object.zoom = Math.max( this.minZoom, Math.min( this.maxZoom, this.object.zoom / dollyScale ) );
+      console.log(this.object.zoom);
       this.object.updateProjectionMatrix();
       this.zoomChanged = true;
     } else {

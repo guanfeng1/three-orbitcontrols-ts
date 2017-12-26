@@ -1,35 +1,61 @@
 {
-  "name": "@avatsaev/three-orbitcontrols-ts",
-  "version": "0.1.5",
-  "description": "ThreeJS OrbitControls as a standalone and typescript compatible npm module (patched for TypeScript 2.3.4)",
-  "main": "dist",
-  "scripts": {
-    "preversion": "npm test && ./node_modules/typescript/bin/tsc -p tsconfig.json",
-    "test": "mocha --opts mocha.opts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avatsaev/three-orbitcontrols-ts.git"
-  },
-  "author": "Aslan Vatsaev",
-  "license": "MIT",
-  "keywords": [
-    "orbit",
-    "controls",
-    "threejs",
-    "three",
-    "js",
-    "orbiter",
-    "camera",
-    "controller"
+  "_args": [
+    [
+      {
+        "raw": "@avatsaev/three-orbitcontrols-ts",
+        "scope": "@avatsaev",
+        "escapedName": "@avatsaev%2fthree-orbitcontrols-ts",
+        "name": "@avatsaev/three-orbitcontrols-ts",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\Works3\\git\\tdm2_v2\\ng-project\\ng2-docs"
+    ]
   ],
+  "_from": "@avatsaev/three-orbitcontrols-ts@latest",
+  "_id": "@avatsaev/three-orbitcontrols-ts@0.1.5",
+  "_inCache": true,
+  "_location": "/@avatsaev/three-orbitcontrols-ts",
+  "_nodeVersion": "7.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/three-orbitcontrols-ts-0.1.5.tgz_1497512035857_0.8484738441184163"
+  },
+  "_npmUser": {
+    "name": "avatsaev",
+    "email": "a.vatsaev@gmail.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@avatsaev/three-orbitcontrols-ts",
+    "scope": "@avatsaev",
+    "escapedName": "@avatsaev%2fthree-orbitcontrols-ts",
+    "name": "@avatsaev/three-orbitcontrols-ts",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@avatsaev/three-orbitcontrols-ts/-/three-orbitcontrols-ts-0.1.5.tgz",
+  "_shasum": "7987c7d34f2cfb7550cf0893368d24747a5487a8",
+  "_shrinkwrap": null,
+  "_spec": "@avatsaev/three-orbitcontrols-ts",
+  "_where": "D:\\Works3\\git\\tdm2_v2\\ng-project\\ng2-docs",
+  "author": {
+    "name": "Aslan Vatsaev"
+  },
   "bugs": {
     "url": "https://github.com/avatsaev/three-orbitcontrols-ts/issues"
   },
-  "homepage": "https://github.com/avatsaev/three-orbitcontrols-ts#readme",
   "dependencies": {
     "three": "^0.84"
   },
+  "description": "ThreeJS OrbitControls as a standalone and typescript compatible npm module (patched for TypeScript 2.3.4)",
   "devDependencies": {
     "@types/core-js": "^0.9.41",
     "@types/jsdom": "^2.0.29",
@@ -41,8 +67,44 @@
     "ts-node": "^2.0.0",
     "typescript": "^2.3.4"
   },
-  "typings": "dist/index.d.ts",
   "directories": {
     "test": "test"
-  }
+  },
+  "dist": {
+    "shasum": "7987c7d34f2cfb7550cf0893368d24747a5487a8",
+    "tarball": "https://registry.npmjs.org/@avatsaev/three-orbitcontrols-ts/-/three-orbitcontrols-ts-0.1.5.tgz"
+  },
+  "gitHead": "8e2d459352297566ba18a129f561e4f79793fc9c",
+  "homepage": "https://github.com/avatsaev/three-orbitcontrols-ts#readme",
+  "keywords": [
+    "orbit",
+    "controls",
+    "threejs",
+    "three",
+    "js",
+    "orbiter",
+    "camera",
+    "controller"
+  ],
+  "license": "MIT",
+  "main": "src",
+  "maintainers": [
+    {
+      "name": "avatsaev",
+      "email": "a.vatsaev@gmail.com"
+    }
+  ],
+  "name": "@avatsaev/three-orbitcontrols-ts",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avatsaev/three-orbitcontrols-ts.git"
+  },
+  "scripts": {
+    "preversion": "npm test && ./node_modules/typescript/bin/tsc -p tsconfig.json",
+    "test": "mocha --opts mocha.opts"
+  },
+  "typings": "dist/index.d.ts",
+  "version": "0.1.5"
 }
