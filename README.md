@@ -1,4 +1,4 @@
-Only Work By My Project !!!
+Only work for my project !!!
 
 ThreeJS OrbitControls as a standalone and typescript compatible npm module.
 
