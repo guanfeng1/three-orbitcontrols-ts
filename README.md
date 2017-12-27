@@ -1,4 +1,4 @@
-Only work for my project !!!
+Only work for 3D Map SDK !!!
 
 ThreeJS OrbitControls as a standalone and typescript compatible npm module.
 
